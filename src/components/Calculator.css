@@ -1,0 +1,46 @@
+.Calc {
+  margin: 20vh 30vw auto;
+  display: flex;
+  flex-direction: column;
+  width: 80vw;
+}
+
+.Calc > * {
+  display: flex;
+}
+
+.Display {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  background-color: rgb(141, 141, 141);
+  font-size: 2.2em;
+  color: whitesmoke;
+  padding-right: 20px;
+  height: 60px;
+  width: 460px;
+}
+
+.Calc-button {
+  height: 60px;
+  width: 120px;
+  background-color: rgb(224, 224, 224);
+  border: 1px solid rgb(184, 184, 184);
+  font-size: 1.3em;
+}
+
+.Calc-button-zero {
+  width: 240px;
+  background-color: rgb(224, 224, 224);
+  border: 1px solid rgb(184, 184, 184);
+  font-size: 1.3em;
+}
+
+.Calc-operator {
+  background-color: rgb(255, 145, 0);
+}
+
+.Button-row {
+  display: flex;
+  flex-direction: row;
+}
