@@ -14,7 +14,7 @@ function Calculator() {
         <button type="button" className="Calc-button">7</button>
         <button type="button" className="Calc-button">8</button>
         <button type="button" className="Calc-button">9</button>
-        <button type="button" className="Calc-button Calc-operator">x</button>
+        <button type="button" className="Calc-button Calc-operator">&#215;</button>
       </div>
       <div className="row4">
         <button type="button" className="Calc-button">4</button>
