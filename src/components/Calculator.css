@@ -1,8 +1,14 @@
+body {
+  background-image: url('../img/pexels-ron-lach-9785613(1)(1).jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .Calc {
   margin: 20vh 30vw auto;
   display: flex;
   flex-direction: column;
-  width: 80vw;
+  width: 60vw;
 }
 
 .Calc > * {
