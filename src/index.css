@@ -16,12 +16,40 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family:
-    source-code-pro,
-    Menlo,
-    Monaco,
-    Consolas,
-    'Courier New',
-    monospace;
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(245, 245, 245, 0.459);
+  border-bottom: 1px solid rgb(34, 34, 34);
+  padding-left: 30px;
+}
+
+.head {
+  font-size: 3em;
+}
+
+a {
+  text-decoration: none;
+  font-size: 1.5em;
+  color: rgb(34, 34, 34);
+}
+
+.nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  flex-basis: 22%;
+}
+
+.nav ul span {
+  border: 1px solid rgb(34, 34, 34);
+  background-color: rgb(34, 34, 34);
+  width: 1px;
+  height: 35px;
+}
+
+.active {
+  color: rgb(190, 108, 0);
+  font-size: 2em;
 }
