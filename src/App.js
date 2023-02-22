@@ -1,4 +1,4 @@
-import { Link, Route, Routes } from 'react-router-dom';
+import { NavLink, Route, Routes } from 'react-router-dom';
 import Home from './components/Home';
 import Calculator from './components/Calculator';
 import Quote from './components/Quote';
@@ -6,16 +6,19 @@ import Quote from './components/Quote';
 function App() {
   return (
     <>
-      <nav>
+      <nav className="nav">
+        <h1 className="head">Math Magicians</h1>
         <ul>
           <li>
-            <Link to="/">Home</Link>
+            <NavLink to="/">Home</NavLink>
           </li>
+          <span />
           <li>
-            <Link to="/calculator">Calculator</Link>
+            <NavLink to="/calculator">Calculator</NavLink>
           </li>
+          <span />
           <li>
-            <Link to="/quote">Quote</Link>
+            <NavLink to="/quote">Quote</NavLink>
           </li>
         </ul>
       </nav>

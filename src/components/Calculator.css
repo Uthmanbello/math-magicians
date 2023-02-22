@@ -1,11 +1,12 @@
 body {
   background-image: url('../img/table(1).jpg');
   background-repeat: no-repeat;
-  background-size:cover;
+  background-size: cover;
 }
 
 .Calc {
   margin: 20vh 30vw auto;
+  margin-top: -1vh;
   display: flex;
   flex-direction: column;
   width: 35.5vw;
