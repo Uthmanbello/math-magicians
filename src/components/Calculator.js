@@ -17,7 +17,7 @@ function Calculator() {
     <>
       <h3 className="heading">Let&apos;s do some math...</h3>
       <div className="Calc">
-        <div className="row1 Display">{calculation.next || calculation.total || '0'}</div>
+        <div data-testid="display" className="row1 Display">{calculation.next || calculation.total || '0'}</div>
         <div className="row2">
           <button type="button" className="Calc-button" onClick={() => handleClick('AC')}>AC</button>
           <button type="button" className="Calc-button" onClick={() => handleClick('+/-')}>+/-</button>
