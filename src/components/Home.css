@@ -1,13 +1,14 @@
 .heading {
   padding-left: 30px;
   font-size: 2em;
+  margin-top: -7px;
 }
 
 .info {
   background-color: whitesmoke;
   margin-left: 20vw;
   margin-right: 20vw;
-  margin-top: 14vh;
+  margin-top: 10vh;
   width: 60vw;
   border: 2px solid rgb(184, 184, 184);
   font-size: 2em;
