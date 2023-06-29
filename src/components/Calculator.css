@@ -51,3 +51,31 @@ body {
   display: flex;
   flex-direction: row;
 }
+
+@media (max-width: 767px) {
+  body {
+    width: 90vw;
+    overflow: hidden;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+  }
+
+  .Calc {
+    margin: 0 auto 0;
+    margin-top: 7vh;
+    margin-left: 10vw;
+    width: 80vw;
+  }
+
+  .Display {
+    font-size: 2.2em;
+    padding-right: 20px;
+    height: 60px;
+    width: 75vw;
+  }
+
+  .Calc-button-zero {
+    width: 252px;
+  }
+}

@@ -20,3 +20,20 @@
 .big {
   font-size: 2.5em;
 }
+
+@media (max-width: 767px) {
+  .heading {
+    padding-left: 10px;
+    font-size: 1.5em;
+    margin-top: 0;
+  }
+
+  .info {
+    margin-left: 16px;
+    margin-right: 20px;
+    margin-top: 10vh;
+    width: 80vw;
+    font-size: 1.4em;
+    padding: 20px;
+  }
+}
